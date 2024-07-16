@@ -1,0 +1,143 @@
+.facebook-page{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
+.facebook-login{
+background-color: white;
+width: 225px;
+height: 230px;
+border-style: none;
+border-radius: 10px;
+padding-top: 30px;
+padding-left: 20px;
+padding-right: 20px;
+box-shadow: 10px 15px 15px white;
+transition: background-color 0.30s, color 0.30s, opacity 0.20s;
+}
+
+.facebook-login:hover{
+    background-color: yellow;
+    color: black;
+}
+.facebook-login:active{
+opacity: 0.5;
+} 
+
+
+.phone-number,.password{
+padding-left: 10px;
+}
+
+
+
+.face{
+color: blue;
+cursor: pointer;
+font-size: 40px;
+font-weight: bolder;
+font-family: arial;
+margin-bottom: 4px;
+}
+.connect{
+color: black;
+font-family: arial;
+cursor: pointer;
+margin-top: 4px;
+margin-bottom: 3px;
+}
+
+.around{
+font-weight: arial;
+cursor: pointer;
+margin-top: 3px;
+}
+
+.phone-number{
+padding-right: 60px;
+height: 25px;
+margin-bottom: 4px;
+cursor: pointer;
+border-style: solid;
+border-radius: 5px;
+border-color: aqua;
+
+}
+.password{
+padding-right: 61px;
+height: 25px;
+margin-top: 4px;
+margin-bottom: 4px;
+cursor: pointer;
+border-style: solid;
+border-radius: 5px;
+border-color: aqua;    
+}
+.log{
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+background-color: blue;
+color: white;
+margin-right: 19px;
+padding-left: 88px;
+padding-right: 97px;
+height: 34px;
+margin-top: 4px;
+border-style: solid;
+border-radius: 9px;
+margin-bottom: 3px;
+cursor: pointer;
+transition: background-color 0.30s, color 0.30s, opacity 0.20s;   
+}
+
+.log:hover{
+    background-color: yellow;
+    color: black;
+}
+.log:active{
+opacity: 0.5;
+} 
+
+.Forgot{
+color: blue;
+margin-right: 20px;
+margin-left: 60px;
+cursor: pointer;
+font-size: 15px;
+margin-top: 3px;
+margin-bottom: 8px;
+}
+.line{
+height: 0;
+width: 210px;
+border-style: solid;
+background-color:rgb(152, 80, 80); 
+border-color: rgb(78, 10, 10);
+border-radius: 2px;
+margin-left: 3px;
+margin-top: 4px;
+margin-bottom: 8px;
+}
+.account{
+height: 34px;
+font-family: arial;
+color: white;
+background-color: rgb(206, 206, 8);
+margin-left: 42px;
+border-style: solid;
+border-radius: 5px;
+margin-top: 4px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.30s, color 0.30s, opacity 0.20s; 
+}
+
+.account:hover{
+    background-color:black;
+    color: white;
+}
+.account:active{
+opacity: 0.5;   
+} 
